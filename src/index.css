@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .Ma-padding {
+    padding: 0px 80px;
+} */
+:root {
+    --blue : #495bff;
+}

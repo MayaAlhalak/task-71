@@ -1,0 +1,32 @@
+.CardFeedback {
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+.CardFeedback .title p , .CardFeedback .title h5{
+    margin: 0;
+    margin-left: 5px;
+}
+.CardFeedback .image-face {
+    width: 50px;
+    height: 50px;
+}
+.CardFeedback p {
+    color: #8993a8;
+}
+.CardFeedback h5 {
+    color: #353340;
+}
+.star-image {
+  width: 20px;
+  height: 20px;
+
+}
+.CardFeedback-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #c4c9ff;
+}

@@ -1,0 +1,67 @@
+.card-plans{
+    padding: 20px;
+    width: 350px;
+    border: 1px solid  #dfe5fd;
+    border-radius: 20px;
+}
+.blue-color{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    color: white; 
+    padding: 20px;
+    background-color: var(--blue);
+}
+.back-color {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    color: white; 
+    padding: 20px;
+    background-color: #18185e;
+}
+ .icon-cloud {
+    width: 50px;
+    height: 50px;
+
+}
+.back-color h4 , .blue-colo h4 {
+    font-size: 25px;
+}
+.back-color p , .blue-colo p  {
+    margin-bottom: 0px;
+}
+.back-color span , .blue-colo span  {
+   font-size: 25px;
+}
+.card-plans ul {
+    list-style: none;
+    padding-left: 0px;
+    
+}
+.card-plans ul li {
+    color: #64718d ;
+    margin: 15px 10px; 
+
+
+}
+.card-plans ul li svg {
+    color: var(--blue);
+}
+.card-plans ul .red  {
+    color: #ff1010;
+}
+.icon-question {
+    margin-left: 100px;
+}
+.btn-card {
+    border: none;
+    color: var(--blue);
+    padding: 10px 80px;
+    border: 1px solid  #dfe5fd;
+    border-radius: 15px;
+    background-color: white;
+}
+

@@ -1,0 +1,42 @@
+.client {
+    width: 100%;
+    margin-top: 180px;
+    background-color: #f2f6fe;
+}
+.image-line {
+    width: 100px;
+}
+.all-CardFeedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.line {
+    background-color: #ebedff;
+    width: 400px;
+    border-radius: 20px;
+    height: 15px;
+   margin: 20px auto 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line-blue {
+    width: 200px;
+    background-color: var(--blue);
+    height: 100%;
+    border-radius: 20px;
+}
+@media(max-width : 700px) {
+   .client{
+    margin-top: 220px;
+   }
+    .image-line {
+        position: absolute;
+        top: 140px;
+        left: 130px;
+
+    }
+   }

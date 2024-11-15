@@ -1,0 +1,148 @@
+.Footer {
+    width: 100%;
+    margin-top: 150px;
+    background-color: #18185e;
+    padding: 0px 50px;
+
+}
+.linear{
+    height: 2px;
+    width: 50px;
+    margin-top: 15px;
+    background-image: linear-gradient(to right , white ,
+     rgba(255, 255, 255, 0.678), 
+     rgba(255, 255, 255, 0.5) ,
+     rgba(255, 255, 255, 0.363) ,
+     rgba(255, 255, 255, 0.267) ,
+     rgba(255, 255, 255, 0.048) ,
+     rgba(255, 255, 255, 0));
+}
+.Footer1 {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #18185e;
+    padding: 0px 50px;
+
+}
+.Footer ul li ,.Footer1 ul li {
+    list-style: none;
+    color: white;
+     margin: 10px 0px;
+}
+.Footer ul , .Footer1 ul {
+    margin: 0;
+    padding: 0;
+    margin: 15px 0;
+}
+.Footer h4 , .Footer1 h4{
+    color: white;
+}
+.Footer p , .Footer1 p  {
+    color: white;
+    margin: 15px 0px;
+}
+.text-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.link a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+}
+.form-input {
+    width: 230px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+     border-radius: 5px;
+}
+.form-input input {
+    border: none;
+    width: 165px;
+}
+.form-input svg {
+    width: 30px;
+    height: 30px;
+    background-color: #384bff;
+    color: white;
+}
+.check {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0px;
+}
+.check span {
+    text-decoration: underline;
+}
+.footer2 {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #384bff;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.footer2 p {
+    margin: 0;
+    padding: 0;
+}
+.footer2-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.footer2 svg {
+    color: #384bff;
+}
+.footer2-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
+.row {
+    width: 80%;
+    margin: 0px auto;
+}
+.row .div-one {
+    margin: 10px 10px;
+}
+
+.icon-conect{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+.icon-conect div{
+   width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width: 890px){
+    .row .div-one{
+        margin: 20px;
+    }
+
+}

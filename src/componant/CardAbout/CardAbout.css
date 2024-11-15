@@ -1,0 +1,34 @@
+.card5 {
+    margin-top: 20px;
+    background-color: #18185e;
+}
+.card5 img {
+    height: 275px;
+}
+.cardsTitle-title {
+    height: 30%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    transform-origin: top left;
+    transform: skewY(4deg);
+    color: white;
+    position: relative;
+}
+.cardsTitle {
+    transform-origin: top left;
+    transform: skewY(-4deg);
+    background-color: #18185e;
+    border-top-right-radius: 10px ;
+}
+.cardsTitle-title .usb {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    right: 10px;
+}

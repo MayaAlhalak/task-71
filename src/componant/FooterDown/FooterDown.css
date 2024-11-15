@@ -1,0 +1,18 @@
+.FooterDown{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #384bff;
+    color: white;
+}
+.FooterDown p {
+    padding: 0;
+    margin: 0;
+}
+@media (max-width :580px){
+    .FooterDown {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

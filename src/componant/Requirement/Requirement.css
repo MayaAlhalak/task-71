@@ -1,0 +1,39 @@
+.requirement{
+   background-color:  #18185e;
+
+}
+.cardservice1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+.req {
+   padding: 0px 50px;
+   position: relative;
+   margin-top: 100px;
+  
+}
+.req iframe{
+   margin: 40px auto;
+   padding: 10px;
+   position: absolute;
+   top: -30px;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 700px;
+   height: 200px;
+}
+@media(max-width :890px){
+   .req iframe 
+   {
+      width: 400px;
+   }
+}
+@media(max-width :490px)
+{
+   .req iframe{
+        width: 250px;
+    }
+}

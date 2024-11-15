@@ -1,0 +1,64 @@
+.HeroAbout {
+    height: 100vh;
+    background-image: 
+    linear-gradient(to right , rgba(0, 0, 0, 0.733) , rgba(0, 0, 255, 0.384)),
+    url(./../../assets/images/breadcrumb.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+
+}
+.box-hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box-hero h2{
+   font-weight: 700;
+}
+.hero-image1 {
+    position: absolute;
+    right: 0;
+    height: 360px;
+    bottom: 0px;
+}
+.aster-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.aster-div .items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.aster-div p ,.aster-div2 p {
+  color: #0f0d1d;
+  font-size: 35px;
+  font-weight: 650;
+  text-transform: capitalize;
+  margin: 0;
+}
+.aster-div img {
+ width: 25px;
+}
+.aster-div2{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+ @media (max-width : 700px){
+    .aster-div {
+        display: none;
+    }
+    .aster-div2 {
+        display: flex;
+    }
+ }

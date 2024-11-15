@@ -1,0 +1,22 @@
+.feature {
+    padding: 0px 50px;
+}
+
+.feature .all-card-feature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.arrow-feature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+@media(max-width :890px){
+    .feature .all-card-feature {
+        justify-content: center;
+    }
+ }

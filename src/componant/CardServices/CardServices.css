@@ -1,0 +1,45 @@
+.card-services1 {
+    width: 280px;
+    border-radius: 20px;
+    background-color: #f3f7fb;
+    border: 1px solid  #dfe5fd;
+    padding: 20px;
+    margin: 15px 0px;
+    }
+    
+.card-services2 {
+    width: 280px;
+    padding: 20px;
+    margin: 15px 0px;
+    margin-top: 90px;
+    }
+.card-services2  h3{
+        -webkit-text-stroke: 1px  gray;
+        font-size: 40px;
+    }
+.card-services2  h3:hover{
+        -webkit-text-stroke: 1px  white;
+        
+    }
+.card-services1 h4 , .card-services2  h4 {
+    margin: 10px 0 ;
+    }
+.card-services2  h4 , .card-services2  p {
+        color: white;
+    }
+.card-services1 button , .card-services2  button {
+
+    border: none;
+    padding: 10px;
+    background-color: #f3f7fb;
+    border: 1px solid #dfe5fd;
+    border-radius: 20px;
+    color: #8d8f98;
+    }
+.card-services1 p , .card-services2  p{
+    color: #7b879f;
+}
+.colors {
+    color: #3d3d78;
+}
+
